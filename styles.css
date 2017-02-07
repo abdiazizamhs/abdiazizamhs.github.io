@@ -1,0 +1,149 @@
+body{
+	background: url(Images/WB2.jpg) top center fixed;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: center;
+	font-family: rockwell;
+	line-height: 2em;
+}
+
+.Intro, .Me, .Skills, .Why{
+	background-color: #049ACC;
+	color: white;
+	border: 5px solid white;
+	border-radius: 2%;
+	width: 90%;
+	height: 700px;
+	margin: 5%;
+	margin-top: 0%;
+	margin-bottom: 0%;
+	padding-top: 10%;
+	padding-left: 2%;
+	padding-right: 2%;
+	text-align: center;
+}
+
+h1{
+	font-family: lucida sans typewriter;
+
+}
+
+p, li{
+	font-family: tahoma;
+	font-size: 125%;
+	text-align: center;
+
+}
+
+.Intro{
+	background-color: transparent;
+	color: #049ACC;
+	border: transparent;
+	font-weight: bolder;
+	font-family: lucida sans typewriter;
+	width: 90%;
+	height: 85%;
+	margin-bottom: 25%;
+}
+
+.Intro>div>div>div>h1{
+	font-size: 50px;
+}
+
+.Intro>div>div>div>p{
+	font-size: 25px;
+}
+
+.Skills{
+	height: 780px;
+	padding-top: 1%;
+}
+
+.Skills>div{
+	width: 80%;
+}
+
+.Skills>div>div>div>div>ul>li, .Skills>div>div>div>div>ul>li>ol>li{
+	font-size: 125%;
+}
+
+.Skills>div>div>div>div>ul>li>ol>li{
+	font-size: 100%;
+	text-align: left;
+}
+
+.nav navbar-nav{
+	color: #049ACC;
+}
+
+.navbar-fixed-bottom{
+	text-align: center;
+	opacity: 0.5;
+	font-weight: bolder;
+}
+
+.navbar-fixed-bottom:hover{
+	opacity: 1;
+	color: black;
+}
+
+#hire{
+	background-color: black;
+	color: #049ACC;
+}
+
+.navbar-fixed-top{
+	height: 50px;
+	opacity: 0.5;
+	font-weight: bolder;
+	font-color: white;
+}
+
+.navbar-fixed-top:hover{
+	opacity: 1;
+	background-color: #049AB0;
+
+}
+
+.navbar-fixed-top>div>div>ul>li>a{
+	background-color: #333333;
+}
+
+.navbar-fixed-top>div>div>ul>li>a:hover{
+	background-color: #049AB0;
+}
+
+img{
+	border-radius: 1000px;
+	height: 50px;
+	width: 50px;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+
+.navbar-inverse .navbar-brand{
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a{
+	color: white;
+}
+
+div.container-fluid{
+	color: black;
+}
+
+.nav .navbar-nav .navbar-center{
+	text-align: center;
+}
+
+.images{
+	border: 5px solid white;
+	position: relative;
+	bottom: 350px;
+	border-radius: 1000px;
+	height: 200px;
+	width: 200px;
+	top: 0px;
+}
+
